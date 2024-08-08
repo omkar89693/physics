@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Experiment Presentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slide" id="slide1">
+            <h1>How Water Pressure Affects Streams from Different Heights</h1>
+            <h2>Omkarpreet Singh & Bhagwati Tiwari</h2>
+            <h3>So That's Physics - July 24, 2024</h3>
+        </div>
+
+        <div class="slide" id="slide2">
+            <h2>Introduction</h2>
+            <p>We conducted this experiment to illustrate how fluid pressure changes with depth. Understanding this principle is crucial for real-world applications like designing tanks and pipelines.</p>
+            <p>As you go deeper into a fluid, the pressure increases. We used a container with holes at different heights to observe this effect in action.</p>
+        </div>
+
+        <div class="slide" id="slide3">
+            <h2>Materials</h2>
+            <ul>
+                <li>An empty plastic or aluminum drink container</li>
+                <li>A tool to make holes (punch or drill)</li>
+                <li>A running faucet</li>
+                <li>A sink to catch the water</li>
+            </ul>
+        </div>
+
+        <div class="slide" id="slide4">
+            <h2>Procedure</h2>
+            <ol>
+                <li>Punch three holes in the container at different heights: bottom, middle, and top.</li>
+                <li>Place the container under the faucet and fill it with water.</li>
+                <li>Observe the water flow from each hole.</li>
+            </ol>
+        </div>
+
+        <div class="slide" id="slide5">
+            <h2>Observations</h2>
+            <ul>
+                <li><strong>Bottom Hole:</strong> Water flows out the farthest and with the most force due to higher pressure.</li>
+                <li><strong>Middle Hole:</strong> Water flows out with moderate force and distance.</li>
+                <li><strong>Top Hole:</strong> Water flows out with the weakest force and travels the shortest distance.</li>
+            </ul>
+        </div>
+
+        <div class="slide" id="slide6">
+            <h2>Results</h2>
+            <p>The experiment confirmed that pressure in water increases with depth. The lower the hole, the stronger and farther the water flows. This aligns with the principle that pressure in a fluid is higher at greater depths.</p>
+        </div>
+
+        <div class="slide" id="slide7">
+            <h2>Conclusion</h2>
+            <p>The experiment effectively demonstrates how water pressure varies with depth. As depth increases, pressure increases, which affects the strength and distance of the water flow. This is useful in designing water systems, machinery, and other applications involving fluids.</p>
+        </div>
+
+        <div class="slide" id="slide8">
+            <h2>References</h2>
+            <ul>
+                <li>American Physical Society. (n.d.). Archimedes’ Principle. Retrieved from <a href="https://www.aps.org/educators/lessons/archimedes.cfm">APS</a></li>
+                <li>Harris, R. (2021). <em>Fluid Mechanics for Engineers</em>. Wiley.</li>
+                <li>University of California, Berkeley. (n.d.). Pressure in Fluids. Retrieved from <a href="https://www.me.berkeley.edu/courses/me101/pressure-fluid">UC Berkeley</a></li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <button onclick="prevSlide()">Previous</button>
+            <button onclick="nextSlide()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
